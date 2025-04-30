@@ -1,0 +1,12 @@
+### PUT User Data
+PUT http://localhost:4004/api/users/123e4567-e89b-12d3-a456-426614174000
+Content-Type: application/json
+
+{
+  "name": "John Doe Update v",
+  "email": "johndoe1@example.com",
+  "address": "123 colombo, Sri Lanka",
+  "dateOfBirth": "1996-06-15"
+}
+
+###

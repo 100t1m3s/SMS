@@ -1,0 +1,14 @@
+### POST request to create user entity
+POST http://localhost:4004/api/users
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "name": "kafka test033",
+  "email": "kafka_test33@email.com",
+  "address": "Black Rose House, Kaduwela, Colombo, Sri Lanka",
+  "dateOfBirth": "2000-03-16",
+  "registerdDate": "2025-04-01"
+}
+
+###

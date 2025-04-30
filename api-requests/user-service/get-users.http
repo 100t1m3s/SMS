@@ -1,0 +1,5 @@
+### GET request to get all users
+GET http://localhost:4004/api/users
+Authorization: Bearer {{token}}
+
+###
